@@ -1,0 +1,2 @@
+1. Link each html page using hyper link
+2. Create table containing employee data
