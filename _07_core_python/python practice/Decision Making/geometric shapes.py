@@ -10,5 +10,5 @@ elif(x==6):
 elif(x==8):
     print("Octagon",x,"sides")
 else:
-    print("Enter the valid number")
+    print("There is no shape with the given number")
 

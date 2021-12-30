@@ -36,6 +36,7 @@ print(aca)
 print ('------------------------')
 print("******Inserting new items******\n")
 
-ins = ['sudha', 35, 87, 'cherry', 'Watermelon']
-ins.insert(0,23)
-print(ins)
+lis = [2,'orange',(23,12,'kiwi'),{1,1,2,1,2,3}]
+lis1 = ['Om','Siva']
+lis2 =lis+lis1
+print(lis2)
