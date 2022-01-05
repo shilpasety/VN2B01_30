@@ -40,7 +40,7 @@ print("Hello")
 '''
 # if elif else while for break continue pass
 
-print("-------- Even numbers -------------")
+'''print("-------- Even numbers -------------")
 # Print only first 3 even numbers between 1 to 50
 counter = 1
 for each in range(1,51):
@@ -81,4 +81,4 @@ tupl1 = (3, 5, 20, 6, 8, 2, 7, 3, 1, 6, 2, 6, 8, 4, 2)
 sum = 1
 for val in tupl1:
     sum = sum * val  # 0+3 = 3 + 5 = 8
-print("Sum of tuple :",sum)
+print("Sum of tuple :",sum)'''
