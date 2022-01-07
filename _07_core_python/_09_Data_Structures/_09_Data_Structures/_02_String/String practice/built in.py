@@ -10,6 +10,12 @@ print(bn.endswith("Zone"))
 
 print(" --------find() function-----------")
 print(bn.find('z'))  # returns -1 if not found
+print()
+print(" --------rfind() function-----------")
+print("rfind finds the last occurence of that given string\n",bn.rfind('e'))
+print("rfind can also find the occurence from the given range\n",bn.rfind('e',1,15))
+# rindex function is same as rfind except one thig: rindex() raises an error if the searched string is not found
+# Whereas rfind returns -1
 
 print(" --------Index() function-----------")
 print("The value found at",bn.index('A'))   # Used to find the index value of that particular value..returns error if not found
@@ -75,4 +81,32 @@ print(b.zfill(15))
 c= 'Welcome to the world'
 print(c.zfill(10)) # not filled with zeros as the string length is already exceeding the length given
 print()
+
+print(" --------join() function-----------")
+tu = tuple(('Work','hard','to','get','fruitful','results'))
+print("Joining the elements in the tuple using join\n","@".join(tu))
+print()
+di = dict({'shilpa':'Java','Advaitha':'Python','Pranaya':'C'})
+seperator = '@'
+print("When joining a dictionary elements, returned values are only keys, not values\n",seperator.join(di))
+print()
+
+print(" --------maketrans() function-----------")
+txt = 'Sagara Sangamam'
+g = txt.maketrans('Sa','po')
+print("After replacing a with o using maketrans function\n",txt.translate(g))
+print()
+
+print(" --------partition() function-----------")
+pn = "I thought of going home today itself but as home is far I decided not to"
+print("Partition happens like this, 'before match','match','after match'\n",pn.partition('home'))
+print()
+pn = 'Wow great to listen'
+print(pn.partition('Hi'))
+print()
+
+print(" --------replace() function-----------")
+rep = 'Oh my God! Oh my baby! Oh you\'re the one'
+print("Replace function is used to replace the particular word with another\n",rep.replace('Oh','ho'))
+print("And we can change the occurences also(We can give count)\n",rep.replace('my','wow',1))
 
