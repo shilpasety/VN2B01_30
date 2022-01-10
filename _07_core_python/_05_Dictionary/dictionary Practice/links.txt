@@ -1,0 +1,5 @@
+For hashing in python:
+
+https://pythonwife.com/hashing-in-python/
+
+https://www.tutorialspoint.com/python/dictionary_has_key
