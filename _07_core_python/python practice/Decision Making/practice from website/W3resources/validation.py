@@ -9,3 +9,6 @@ Maximum length 16 characters'''
 
 p = input("Enter the password:")
 if len(p)>=6 and len(p)<=16:
+    for i in p:
+        if i=='$' or i=='#' or i=='@':
+            pass
