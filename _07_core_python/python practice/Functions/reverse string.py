@@ -6,4 +6,7 @@ def reverse(s):
     print("string is:", s)
     print("Reverse of string is:",s[::-1])
 reverse("1234abcd")
+print()
+
+
 
